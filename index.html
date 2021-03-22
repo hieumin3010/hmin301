@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<title>Assignment 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Judson:wght@700&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Judson&display=swap" rel="stylesheet">
+
+ <link href="http://fonts.cdnfonts.com/css/notera" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("C:/Users/minhh/OneDrive/Desktop/Web Design/Web Design 2/Assignment 2/Image/banner1.jpg")}
+.bgimg2 {background-image: url("C:/Users/minhh/OneDrive/Desktop/Web Design/Web Design 2/Assignment 2/Image/f-camp1.jpg")}
+
+	video 
+	{
+  		width: 100%;
+ 	 	height: auto;
+	}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ /********* Contact us **********.
+  /* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #f57c14;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+  /********* Social media button **********/
+  .footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+.fa {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 20px;
+    padding-top: 10px;
+    border-radius: 300%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+</style>
+
+
+
+<body>
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg " id="home">
+
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:20%" class="w3-bar-item w3-button">Home</a>
+    <a href="#events" style="width:20%" class="w3-bar-item w3-button">Events</a>
+    <a href="#f&b" style="width:20%" class="w3-bar-item w3-button">Food & Beverage</a>
+    <a href="#gallery" style="width:20%" class="w3-bar-item w3-button">Gallery</a>
+    <a href="#Registration" style="width:20%" class="w3-bar-item w3-button">Registration</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-grayscale-min" style="background-color: #f57c14;" id="events">
+  <div class="w3-content">
+    <h1 style="text-align: center; font-family: 'Notera', sans-serif; font-size: 95px; color: #000000">F-Camp 2020</h1>
+    <br>
+    <br>
+    <video width="400" autoplay>
+  	<source src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\welcome.mp4" type="video/mp4">
+  	<source src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\welcome.ogg" type="video/ogg">
+	</video>
+    <p style="text-align: center; font-size: 18px; font-family: 'Judson', serif; color: #ffffff"><i><b>[F-CAMP 2020]<br>10 YEARS JOURNEY</b></i>
+    </p>
+     <p style="text-align: center; font-size: 18px; font-family: 'Judson', serif; color: #ffffff"><i>𝐅-𝐂𝐚𝐦𝐩 is a new student welcoming event held annually by previous students with the companionship and mentor of the room 𝐈𝐂-𝐏𝐃𝐏. 𝐅-𝐂𝐚𝐦𝐩 is always the most anticipated event for FPT students, not only bringing the excitement and novelty, 𝐅-𝐂𝐚𝐦𝐩 also spread the inherent enthusiastic, dynamic spirit of FPT students. <br> <br>
+Let 𝐅-𝐂𝐚𝐦𝐩 𝟐𝟎𝟐𝟎 become a part of your youth!</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Event Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo"><b>You Are Invited</b></h1>
+    <p class="w3-center"><a href="#Registration" class="w3-button w3-orange w3-round w3-padding-large w3-large">Join now</a></p>
+    <h1 style="text-align: center; font-size: 18px;"><b>Registered : 1008</b></h1>
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("March 22, 2021 18:00:00").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</div>
+
+
+<!-- Event -->
+<section>
+<div class="w3-container w3-padding-64 w3-grayscale-min w3-center" style="background-color: #f57c14;" id="wedding">
+  <div class="w3-content">
+    <h1 style="text-align: center; font-family: 'Notera', sans-serif; font-size: 95px; color: #ffffff">Events</h1>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+      <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\event1.jpg" width="400" height="400" class="mx-auto d-block">
+        <h2 style="text-align: center; color: #ffffff; font-family: 'Judson', serif;"> Village King </h2>
+      </div>
+
+      <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\event2.jpg" width="400" height="400" class="mx-auto d-block">
+        <h2 style="text-align: center; color: #ffffff; font-family: 'Judson', serif;"> The OGL </h2>
+      </div>
+  	</div>
+</div>
+
+<div class="containter">
+
+    <div class="row">
+      <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\event3.jpg" width="400" height="400" class="mx-auto d-block">
+        <h2 style="text-align: center; color: #ffffff; font-family: 'Judson', serif;"> Sing,Chew,Dance,Crew </h2>
+      </div>
+
+      <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\event4.jpg" width="400" height="400" class="mx-auto d-block">
+        <h2 style="text-align: center; color: #ffffff; font-family: 'Judson', serif;"> Games </h2>
+      </div>
+
+      </div>
+
+</div>
+
+  </div>
+</div>
+</section>
+
+<!-- F&B -->
+<section>
+<div class="w3-container w3-padding-64 w3-grayscale-min w3-center" style="background-color: #ffffff;" id="f&b">
+  <div class="w3-content">
+    <h1 style="text-align: center; font-family: 'Notera', sans-serif; font-size: 95px; color: #000000">Food & Beverage</h1>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+    <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\HaNoiPho.png" width="100%" class="mx-auto d-block">
+      </div>
+
+    <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\QuangAnh.png" width="100%" class="mx-auto d-block">
+      </div>
+
+ 	<!-- Column 3 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\Simdo.png" width="100%"  class="mx-auto d-block">
+      </div>
+
+  	</div>
+</div>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+    <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\DailyKebabHaus.png" width="100%" class="mx-auto d-block">
+      </div>
+
+    <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\AzzanCoffee.png" width="100%" class="mx-auto d-block">
+      </div>
+
+ 	<!-- Column 3 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\FUHL.png" width="100%"  class="mx-auto d-block">
+      </div>
+
+  	</div>
+</div>
+
+  </div>
+</div>
+</section>
+
+<!-- Gallery -->
+<section>
+<div class="w3-container w3-padding-64 w3-grayscale-min w3-center" style="background-color: #f57c14;" id="gallery">
+  <div class="w3-content">
+    <h1 style="text-align: center; font-family: 'Notera', sans-serif; font-size: 95px; color: #ffffff">Gallery</h1>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+      <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\1.jpg" width="100%" >
+      </div>
+
+      <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\2.jpg" width="100%" >
+      </div>
+ 	<!-- Column 3 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\3.jpg" width="100%" >
+      </div>
+	<!-- Column 4 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\4.jpg" width="100%"  >
+      </div>
+  	</div>
+</div>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+      <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\5.jpg" width="100%" >
+      </div>
+
+      <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\6.jpg" width="100%" >
+      </div>
+ 	<!-- Column 3 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\7.jpg" width="100%" >
+      </div>
+	<!-- Column 4 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\8.jpg" width="100%" >
+      </div>
+  	</div>
+</div>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+      <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\9.jpg" width="100%" >
+      </div>
+
+      <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\10.jpg" width="100%" >
+      </div>
+ 	<!-- Column 3 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\11.jpg" width="100%" >
+      </div>
+	<!-- Column 4 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\12.jpg" width="100%" >
+      </div>
+  	</div>
+</div>
+<br>
+<br>
+<div class="containter">
+    <div class="row">
+      <!-- Column 1 --->
+
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\13.jpg" width="100%" >
+      </div>
+
+      <!-- Column 2 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\14.jpg" width="100%" >
+      </div>
+ 	<!-- Column 3 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\15.jpg" width="100%" >
+      </div>
+	<!-- Column 4 --->
+      <div class="col">
+        <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\16.jpg" width="100%" >
+      </div>
+  	</div>
+</div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+<!-- Registration -->
+<div class="w3-container w3-padding-64 w3-center w3-wide" style="background-color: #ffffff;" id="Registration">
+  
+  <section>
+  <div>
+  <div style="text-align:center">
+    <br>
+    <br>
+    <h2 style="text-align: center; font-family: 'Judson', serif; font-size: 48px; color: #3c3c3c "> <b> Register Form </b> </h2>
+    <p style="text-align: center; font-family: 'Judson', serif; font-size: 24px; color: #3c3c3c ">If you have any questions,please send us a message.</p>
+  </div>
+  <div class="row">
+
+	<div class="column">
+      <img src="C:\Users\minhh\OneDrive\Desktop\Web Design\Web Design 2\Assignment 2\Image\contact.png" style="width:80%">
+    </div>
+
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname" style="font-family: 'Judson', serif;"> <b> Name </b> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname" style="font-family: 'Judson', serif;"><b> Student ID </b> </label>
+        <input type="text" id="lname" name="lastname" placeholder="Your student id..">
+        <label for="yemail" style="font-family: 'Judson', serif;"><b> Email Address </b> </label>
+        <input type="text" id="yemail" name="email" placeholder="Your FPT email address..">
+        <label for="yphone" style="font-family: 'Judson', serif;"><b> Phone </b> </label>
+        <input type="text" id="yphone" name="phone" placeholder="Your phone number..">
+        <label for="food" style="font-family: 'Judson', serif;"><b> Registration Food Lunch </b> </label>
+        <select id="food" name="country" style="color: #8b8592">
+          <option value="Ha Noi Pho">Ha Noi Pho</option>
+          <option value="Quang Anh">Quang Anh</option>
+          <option value="Simdo">Simdo</option>
+          <option value="Sao Viet">Sao Viet</option>
+        </select>
+        <label for="message" style="font-family: 'Judson', serif;"><b> Any Question</b></label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<div class="footer bg-dark ">
+  <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+
+
+
+
+
+</body>
+
+</html>
+</body>
+
+
